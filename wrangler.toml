@@ -15,25 +15,25 @@ rules = [
 
 [[routes]]
 # Refer to https://developers.cloudflare.com/workers/wrangler/configuration/#routes
-pattern = "shz.al"
+pattern = "paste.yizhan.wiki"
 custom_domain = true
 
 [[kv_namespaces]]
 binding = "PB"  # do not touch this
-id = "cc398e983a234aa19de5ea6af571a483"  # id of your KV namespace
+id = "5750a219f57a4f2b95ea8dae050c1d42"  # id of your KV namespace
 
 [vars]
 # must be consistent with your routes
-BASE_URL = "https://shz.al"
+BASE_URL = "https://paste.yizhan.wiki"
 
 # url to repo, displayed in index page
-REPO = "https://github.com/SharzyL/pastebin-worker"
+REPO = "https://github.com/lilingfengdev/NitWikit-Pastebin"
 
 # url to favicon
-FAVICON = "https://sharzy.in/favicon-32x32.png"
+FAVICON = "https://yizhan.wiki/NitWikit/img/book.png"
 
 # the name displayed in TOS
-TOS_MAINTAINER = "Sharzy"
+TOS_MAINTAINER = "笨蛋粘贴板"
 
 # the email displayed in TOS
 TOS_MAIL = "pb@shz.al"

@@ -2,7 +2,7 @@ import { escapeHtml } from "../common.js"
 
 export function makeHighlight(content, lang) {
   return `<!DOCTYPE html>
-<html lang='en'>
+<html lang='zh-cn'>
 <head>
   <title>Yet another pastebin</title>
   <meta charset='utf-8'>
